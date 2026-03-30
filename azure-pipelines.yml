@@ -12,7 +12,7 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'docker-hub-connection'
-    repository: 'your-dockerhub-username/farris-reaktr-ai-app'
+    repository: 'farrisdevops/farris-reaktr-ai-app'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
     tags: 'latest'
